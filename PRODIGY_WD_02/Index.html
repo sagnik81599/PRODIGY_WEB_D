@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-store" />
+    
+    <link rel="icon" href="S_logo.png" type="image/png">
+
+
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <!-- <link rel="shortcut icon" href="" type="image/x-icon"> -->
+
+    <title>My Portfolio</title>
+</head>
+<body>
+<div class="container">
+    <!-- --------------- HEADER --------------- -->
+    <nav id="header">
+<!--        logo photo-->
+        <div class="nav-logo">
+            <p class="nav-name">Saggy</p>
+            <span>.</span>
+        </div>
+
+
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction2()"></i>
+        </div>
+    </nav>
+
+
+    <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+            <div class="featured-text">
+                <div class="featured-text-card">
+                    <span>Myself, Sagnik Saha</span>
+                </div>
+                <div class="featured-name">
+                    <p>I'm <span class="typedText"></span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p> frontend developer with a passion for creating visually stunning
+                        and user-friendly websites.
+                    </p>
+                </div>
+                <div class="featured-text-btn">
+                    <button class="btn blue-btn"><a href="#contact" style="color: #fff;">Contact me</a></a></button>
+                    <button class="btn"><a href="MY resume.pdf">Download CV<i class="uil uil-file-alt"></a></i></button>
+                </div>
+                <div class="social_icons">
+                    <a href="https://github.com/sagnik81599" target="_blank">
+                    <div class="icon3"><i class="uil uil-github-alt"></i></div></a>
+
+
+                    <a href="https://www.linkedin.com/in/sagnik-saha-656a1225b/" target="_blank">
+                    <div class="icon2"><i class="uil uil-linkedin-alt"></i></div></a>
+
+
+                     <a href="https://www.instagram.com/frag_g20/" target="_blank">
+                    <div class="icon1"><i class="uil uil-instagram"></i></div></a>
+
+                </div>
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="IMG/my%20photo.jpg" alt="avatar">
+                </div>
+            </div>
+
+        </section>
+
+            <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>I am well-versed in HTML, CSS, and JavaScript, along with other cutting-edge frameworks and
+                         libraries that enable me to implement interactive features. Additionally, I have recently
+                         been working with backend technologies like PHP and MySQL to build dynamic web applications.
+                    </p>
+            <div class="education-section">
+            <h4>Education</h4>
+            <div class="edu-card">
+                <img src="https://media.licdn.com/dms/image/v2/D560BAQEefpz99zoogw/company-logo_200_200/B56ZVqUWM9GsAM-/0/1741245479306/adamas_university_logo?e=2147483647&v=beta&t=U5fOJLj-uH2mgVvMhOETr5LuF9xyvEwV8Ll1zN31Ud0" alt="Adamas University Logo" class="college-logo">
+                <div class="edu-details">
+                    <p><strong>College:</strong> Adamas University</p>
+                    <p><strong>Course:</strong> Bachelor of Computer Applications (BCA)</p>
+                    <p><strong>Grade:</strong> A+</p>
+                </div>
+            </div>
+            </div>
+         </div>
+            </div>
+
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend+Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                        
+                    </div>
+                    <div class="skills-header"style="padding-top: 30px;">
+                    <h3>Programming language</h3>
+                    </div>
+                    <div class="skills-list">
+                    <span>C</span> 
+                    <span>C++</span>   
+                    <span>Python</span>
+                  </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                    </div>
+                </div> 
+            </div>
+          </div>
+       </section>
+
+<!-- project Section part -->
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+          </div>
+
+    <div class="projects-container">
+ 
+    <div class="project-card">
+      <img src="project_img/product.png" alt="Project 1">
+      <h3>Medicine online delivery Shop Web application</h3>
+      <p>This web application helps users easily access affordable 
+        medicines under the Pradhan Mantri Bhartiya Janaushadhi Yojana (PMBJP).</p>
+      <a href="https://github.com/sagnik81599/Project-1" target="_blank" class="view-btn">View</a>
+    </div>
+
+    <!-- Project Card -->
+    <div class="project-card">
+      <img src="project_img/lasa.png" alt="Project 2">
+      <h3>LASA Medicines Detection</h3>
+      <p>A smart web app using ASR technology to detect and prevent Look-Alike Sound-Alike (LASA) medicine errors
+         by recognizing spoken medicine names and comparing them for similarity.</p>
+      <a href="https://github.com/sagnik81599/Anonymous-Messages-Charting-Application" target="_blank" class="view-btn">View</a>
+    </div>
+
+     <div class="project-card">
+      <img src="project_img/chat.png" alt="Project 2">
+      <h3>Anonymous-Messages-Charting-App</h3>
+      <p>This is a charting messages application where you don't need to
+         login but can post messages, which can view the public dashboard,</p>
+      <a href="project2-link.html" target="_blank" class="view-btn">View</a>
+    </div>
+
+     <div class="project-card">
+      <img src="project_img/GameZone.png" alt="Project 2">
+      <h3>GameZone Site</h3>
+      <p>Explore the most popular free and paid games across all genres — from action-packed
+         adventures to strategic masterpieces. Watch thrilling eSports videos, highlights,</p>
+      <a href=" https://courageous-croquembouche-053322.netlify.app/" target="_blank" class="view-btn">View</a>
+    </div>
+
+       <div class="project-card">
+      <img src="project_img/Clash_Royale.png" alt="Project 2">
+      <h3>Clash Royale Site</h3>
+      <p>This site is your animated gateway to everything Clash Royale — from epic card battles and deck tips to real-time strategies</p>
+      <a href="https://sagnik81599.github.io/CR-Site/" target="_blank" class="view-btn">View</a>
+    </div>
+
+      <div class="project-card">
+      <img src="project_img/img_Slider.png" alt="Project 2">
+      <h3> Animated image Slider</h3>
+      <p>Enjoy a stunning animated slider featuring a website with an 
+        animated image slider showcasing beautiful places in India</p>
+      <a href="https://github.com/sagnik81599/IMG_Slider_Site" target="_blank" class="view-btn">View</a>
+    </div>
+  </div>
+  </section>
+
+   <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> sagniksaha847@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> 8159973735</p>
+                </div>
+             </div>
+
+
+        <form id="contact-form" action="https://formspree.io/f/xldndjpd" method="POST" autocomplete="off">
+         <div class="form-container">
+         <div class="form-row">
+          <input type="text" name="name" class="input-field" placeholder="Name" required autocomplete="off">
+          <input type="email" name="email" class="input-field" placeholder="Email" required autocomplete="off">
+         </div>
+        <div class="form-row">
+           <textarea name="message" class="textarea-field" placeholder="Message" required autocomplete="off"></textarea>
+        </div>
+        <div class="form-row">
+          <button class="btn-send" type="submit">Send <i class="uil uil-message"></i></button>
+        </div>
+      </div>
+     </form>
+    </div>
+       </section>
+
+    </main>
+
+
+     <footer>
+        <div class="top-footer">
+            <p>Saggy.</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><i class="uil uil-instagram"></i></div>
+            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Sagnik Saha</a> - All rights reserved</p>
+        </div>
+    </footer>
+</div>
+
+<!-- ----- TYPING JS Link ----- -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+<!-- email send functions  -->
+<!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
+
+<!-- ----- SCROLL REVEAL JS Link----- -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+<!-- ----- MAIN JS ----- -->
+<script src="main.js"></script>
+
+<!-- 
+<script type="module" src="email.js"></script> -->
+
+
+
+</body>
+</html>
